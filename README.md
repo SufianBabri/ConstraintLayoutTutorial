@@ -5,7 +5,8 @@ This is a basic tutorial of ConstraintLayout.
 1. **Barrier** - useful when one of the elements is aligned against multiple views and we are not sure which element will have the largest width/height.
 2. **Group** - groups views for easily changing their visibilities.
 3. **Chain** - arranges the elements so they fill width or height of parent in different ways.
-4. **Guideline** - helps in placing elements at margin (dp or percentage) in the parent.
+4. **Guideline** - helps in aligning multiple views easily. It can be defined either in dp or in percentage.
+5. **Bias** - defines affinity the view has towards one of the anchor points on a single axis (i.e. left vs right for horizontal bias or top vs bottom for vertical bias).
 
 
 ## References:
