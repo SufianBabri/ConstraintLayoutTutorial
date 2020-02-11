@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Square Button"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#00F71A"
+        android:text="This is TextView1"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toStartOf="@+id/buttonEnd"
+        app:layout_constraintStart_toEndOf="@+id/buttonStart"
+        app:layout_constraintTop_toTopOf="@+id/buttonStart" />
+
+<!--&lt;!&ndash;    TextView takes all the space available between the constraints&ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/textView1"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginLeft="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:layout_marginRight="8dp"-->
+<!--        android:background="#00F71A"-->
+<!--        android:text="This is TextView1"-->
+<!--        app:layout_constrainedWidth="true"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/buttonEnd"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/buttonStart"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/buttonStart" />-->
+
+<!--&lt;!&ndash;    TextView which wraps content but doesn't goes out of constraints&ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginLeft="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:layout_marginRight="8dp"-->
+<!--        android:background="#00F71A"-->
+<!--        android:text="This is TextView2"-->
+<!--        app:layout_constrainedWidth="true"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/buttonEnd"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/buttonStart"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView1" />-->
+
+<!--&lt;!&ndash;    TextView wraps to content and aligns to the start&ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/textView3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginLeft="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:layout_marginRight="8dp"-->
+<!--        android:background="#00F71A"-->
+<!--        android:text="This is TextView3"-->
+<!--        app:layout_constrainedWidth="true"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/buttonEnd"-->
+<!--        app:layout_constraintHorizontal_bias="0"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/buttonStart"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView2" />-->
+
+<!--&lt;!&ndash;    TextView wraps to content and may go out of the end constraint if content is too big&ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/textView4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginLeft="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:layout_marginRight="8dp"-->
+<!--        android:background="#00F71A"-->
+<!--        android:text="This is TextView4. This is TextView4. This is TextView4. "-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/buttonEnd"-->
+<!--        app:layout_constraintHorizontal_bias="0"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/buttonStart"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView3" />-->
+
+    <Button
+        android:id="@+id/buttonEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="End"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
