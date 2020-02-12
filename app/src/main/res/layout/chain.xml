@@ -14,7 +14,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/text2"
+        app:layout_constraintEnd_toStartOf="@id/text2"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,8 +26,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/text3"
-        app:layout_constraintStart_toEndOf="@+id/text1"
+        app:layout_constraintEnd_toStartOf="@id/text3"
+        app:layout_constraintStart_toEndOf="@id/text1"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -38,6 +38,6 @@
         android:layout_marginLeft="8dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/text2"
+        app:layout_constraintStart_toEndOf="@id/text2"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

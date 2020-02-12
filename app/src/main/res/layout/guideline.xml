@@ -35,7 +35,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="Hello World"
-        app:layout_constraintEnd_toStartOf="@+id/guidelineVerticalEnd"
-        app:layout_constraintStart_toStartOf="@+id/guidelineVerticalStart"
-        app:layout_constraintTop_toTopOf="@+id/guidelineHorizontal" />
+        app:layout_constraintEnd_toStartOf="@id/guidelineVerticalEnd"
+        app:layout_constraintStart_toStartOf="@id/guidelineVerticalStart"
+        app:layout_constraintTop_toTopOf="@id/guidelineHorizontal" />
 </androidx.constraintlayout.widget.ConstraintLayout>
