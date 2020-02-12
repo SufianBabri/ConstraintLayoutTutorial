@@ -30,8 +30,8 @@
         app:layout_constraintTop_toTopOf="@id/buttonStart" />
 
 <!--
-                            __About Constraints__
-        1. With match constraint (android:layout_width="0dp"):
+                                    __About Constraints__
+        1. With MATCH_CONSTRAINT (android:layout_width="0dp"):
             a. Use layout_constraintWidth_min and layout_constraintWidth_max to control widgets's
             min and max width.
             b. Use layout_constraintWidth_percent (between 0 and 1, inclusive) to define widget's

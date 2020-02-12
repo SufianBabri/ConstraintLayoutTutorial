@@ -5,7 +5,14 @@
     android:layout_height="match_parent"
     android:paddingTop="20dp">
 
-    <!-- TODO change value of chainStyle -->
+    <!--
+                                    __About Chaining__
+     1. use layout_constraintHorizontal_chainStyle attribute to change how the widgets should
+     be aligned.
+     2. widgets with dimension set to MATCH_CONSTRAINT (0dp) will take all of the leftover place.
+     If multiple widgets have MATCH_CONSTRAINT then they will divide the space equally between
+     themselves. This is called "weighted chains".
+     -->
 
     <TextView
         android:id="@+id/text1"
